@@ -3,7 +3,8 @@
     "page_head": {
       "type": "page-head",
       "settings": {
-        "heading": "MyCookiedough<sup>r<\/sup><br> Stores"
+        "heading": "MyCookiedough<sup>r<\/sup><br> Stores",
+        "text": "<p>Experience moments of pure joy at<br\/>our My Cookie Dough Stores.<\/p>"
       }
     }
   },
