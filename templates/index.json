@@ -111,10 +111,28 @@
             "store-location": "London",
             "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>"
           }
+        },
+        "258c382f-de47-4db7-b86e-4c5ea01d1a53": {
+          "type": "store",
+          "settings": {
+            "store-image": "shopify:\/\/shop_images\/image1.jpg",
+            "store-location": "london",
+            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>"
+          }
+        },
+        "573bd37e-9753-4b03-88f5-7df3cd5f3660": {
+          "type": "store",
+          "settings": {
+            "store-image": "shopify:\/\/shop_images\/image1.jpg",
+            "store-location": "london",
+            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>"
+          }
         }
       },
       "block_order": [
-        "9a4df05a-d7da-43f3-9618-3cf880fed796"
+        "9a4df05a-d7da-43f3-9618-3cf880fed796",
+        "258c382f-de47-4db7-b86e-4c5ea01d1a53",
+        "573bd37e-9753-4b03-88f5-7df3cd5f3660"
       ],
       "settings": {
       }
