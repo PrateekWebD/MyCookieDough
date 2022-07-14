@@ -65,7 +65,30 @@
 {% schema %}
   {
     "name": "Our Stores",
-    "settings": []
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Store",
+        "type": "store",
+        "settings": [
+          {
+            "id": "store-image",
+            "type": "image_picker",
+            "label": "Store Image"
+          },
+          {
+            "id": "store-location",
+            "type": "text",
+            "label": "Location"
+          },
+          {
+            "id": "store-address",
+            "type": "textarea",
+            "label": "Address"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
 
