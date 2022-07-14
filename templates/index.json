@@ -113,11 +113,11 @@
             "timing-label": "OPENING TIMES",
             "mon-timing": "9:00 AM - 6:00 PM",
             "tue-timing": "9:00 AM - 6:00 PM",
-            "wed-timing": "",
-            "thu-timing": "",
-            "fri-timing": "",
-            "sat-timing": "",
-            "sun-timing": "",
+            "wed-timing": "9:00 AM - 6:00 PM",
+            "thu-timing": "9:00 AM - 6:00 PM",
+            "fri-timing": "9:00 AM - 6:00 PM",
+            "sat-timing": "9:00 AM - 6:00 PM",
+            "sun-timing": "11:00 AM - 5:00 PM",
             "button-label": "Get Directions"
           }
         },
