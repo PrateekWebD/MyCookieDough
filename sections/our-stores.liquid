@@ -14,43 +14,43 @@
                             <h2><a href="#">{{ block.settings.store-location }} </a></h2>
                             {{ block.settings.store-address }}
                             <div class="timings-chart">
-                              <a href="#" class="toggle-btn"><span>OPENING TIMES</span> <i class="icon"><img src="{{ 'down-arrow.svg' | asset_url }}" alt="arrow"></i></a>
+                              <a href="#" class="toggle-btn"><span>{{ block.settings.timing-label }}</span> <i class="icon"><img src="{{ 'down-arrow.svg' | asset_url }}" alt="arrow"></i></a>
                               <table class="custom-table1">
                                 <tbody>
                                   <tr>
                                     <td class="week">MON:</td>
-                                    <td>9:00 AM - 6:00 PM</td>
+                                    <td> {{ block.settings.mon-timing }} </td>
                                   </tr>
                                   <tr>
                                     <td class="week">TUE:</td>
-                                    <td>9:00 AM - 6:00 PM</td>
+                                    <td> {{ block.settings.mon-timing }} </td>
                                   </tr>
                                   <tr>
                                     <td class="week">WED:</td>
-                                    <td>9:00 AM - 6:00 PM</td>
+                                    <td> {{ block.settings.mon-timing }} </td>
                                   </tr>
                                   <tr>
                                     <td class="week">THU:</td>
-                                    <td>9:00 AM - 6:00 PM</td>
+                                    <td> {{ block.settings.mon-timing }} </td>
                                   </tr>
                                   <tr>
                                     <td class="week">FRI:</td>
-                                    <td>9:00 AM - 6:00 PM</td>
+                                    <td> {{ block.settings.mon-timing }} </td>
                                   </tr>
                                   <tr>
                                     <td class="week">SAT:</td>
-                                    <td>9:00 AM - 6:00 PM</td>
+                                    <td> {{ block.settings.mon-timing }} </td>
                                   </tr>
                                   <tr>
                                     <td class="week">SUN</td>
-                                    <td>11:00 AM - 5:00 PM</td>
+                                    <td> {{ block.settings.mon-timing }} </td>
                                   </tr>
                                 </tbody>
                               </table>
                             </div>
                           </div>
                           <footer>
-                            <a href="#" class="btn btn-primary bg-color1">Get Directions</a>
+                            <a href="#" class="btn btn-primary bg-color1">{{ block.settings.button-label }}</a>
                           </footer>
                         </div>
                       </div>
