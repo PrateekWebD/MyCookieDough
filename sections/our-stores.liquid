@@ -2,57 +2,60 @@
         <div class="section our-stores">
           <div class="container">
             <div class="row">
-              
-              <div class="col-lg-4 col-md-6 column">
-                <div class="box1">
-                  <figure class="figure1">
-                    <img class="w-100" src="images/image1.jpg" alt="img">
-                  </figure>
-                  <div class="content">
-                    <h2><a href="#">Gateshead </a></h2>
-                    <p>Metro Centre, Lower platinum Mall (next to Game)</p>
-                    <div class="timings-chart">
-                      <a href="#" class="toggle-btn"><span>OPENING TIMES</span> <i class="icon"><img src="{{ 'down-arrow.svg' | asset_url }}" alt="arrow"></i></a>
-                      <table class="custom-table1">
-                        <tbody>
-                          <tr>
-                            <td class="week">MON:</td>
-                            <td>9:00 AM - 6:00 PM</td>
-                          </tr>
-                          <tr>
-                            <td class="week">TUE:</td>
-                            <td>9:00 AM - 6:00 PM</td>
-                          </tr>
-                          <tr>
-                            <td class="week">WED:</td>
-                            <td>9:00 AM - 6:00 PM</td>
-                          </tr>
-                          <tr>
-                            <td class="week">THU:</td>
-                            <td>9:00 AM - 6:00 PM</td>
-                          </tr>
-                          <tr>
-                            <td class="week">FRI:</td>
-                            <td>9:00 AM - 6:00 PM</td>
-                          </tr>
-                          <tr>
-                            <td class="week">SAT:</td>
-                            <td>9:00 AM - 6:00 PM</td>
-                          </tr>
-                          <tr>
-                            <td class="week">SUN</td>
-                            <td>11:00 AM - 5:00 PM</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  <footer>
-                    <a href="#" class="btn btn-primary bg-color1">Get Directions</a>
-                  </footer>
-                </div>
-              </div>
-              
+              {% for block in section.blocks %}
+                {% case block.type %}
+                  {% when 'store' %}
+                      <div class="col-lg-4 col-md-6 column">
+                        <div class="box1">
+                          <figure class="figure1">
+                            <img class="w-100" src="{{ block.settings.store-image | image_url }}" alt="{{ block.settings.store-image.alt }}">
+                          </figure>
+                          <div class="content">
+                            <h2><a href="#">{{ block.settings.store-location }} </a></h2>
+                            {{ block.settings.store-address }}
+                            <div class="timings-chart">
+                              <a href="#" class="toggle-btn"><span>OPENING TIMES</span> <i class="icon"><img src="{{ 'down-arrow.svg' | asset_url }}" alt="arrow"></i></a>
+                              <table class="custom-table1">
+                                <tbody>
+                                  <tr>
+                                    <td class="week">MON:</td>
+                                    <td>9:00 AM - 6:00 PM</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="week">TUE:</td>
+                                    <td>9:00 AM - 6:00 PM</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="week">WED:</td>
+                                    <td>9:00 AM - 6:00 PM</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="week">THU:</td>
+                                    <td>9:00 AM - 6:00 PM</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="week">FRI:</td>
+                                    <td>9:00 AM - 6:00 PM</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="week">SAT:</td>
+                                    <td>9:00 AM - 6:00 PM</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="week">SUN</td>
+                                    <td>11:00 AM - 5:00 PM</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                          <footer>
+                            <a href="#" class="btn btn-primary bg-color1">Get Directions</a>
+                          </footer>
+                        </div>
+                      </div>
+                {% endcase %}
+              {% endfor %}
             </div>
             <footer class="text-center pt-4 pt-lg-5">
               <span class="note">More UK Stores opening soon! </span>
