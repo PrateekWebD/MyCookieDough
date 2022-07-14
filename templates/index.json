@@ -289,11 +289,17 @@
       ],
       "settings": {
       }
+    },
+    "international_stores": {
+      "type": "international-stores",
+      "settings": {
+      }
     }
   },
   "order": [
     "page_head",
     "image_slider",
-    "our_stores"
+    "our_stores",
+    "international_stores"
   ]
 }
