@@ -109,7 +109,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "London",
-            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>"
+            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "9:00 AM - 6:00 PM",
+            "tue-timing": "9:00 AM - 6:00 PM",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "258c382f-de47-4db7-b86e-4c5ea01d1a53": {
@@ -117,7 +126,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "london",
-            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>"
+            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "573bd37e-9753-4b03-88f5-7df3cd5f3660": {
@@ -125,7 +143,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "london",
-            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>"
+            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "4722b87b-c5a9-4a39-87b6-7815067f9afc": {
@@ -133,7 +160,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "Birmingham",
-            "store-address": "<p>Bullring Shopping Centre, Lower Mall (Next to Burger King)<\/p>"
+            "store-address": "<p>Bullring Shopping Centre, Lower Mall (Next to Burger King)<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "e3415b49-e4f0-47a1-89ba-6424be530e41": {
@@ -141,7 +177,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "Cardiff",
-            "store-address": "<p>St Davids Shopping Centre, Mall 2, Floor 1 (towards Debenhams)<\/p>"
+            "store-address": "<p>St Davids Shopping Centre, Mall 2, Floor 1 (towards Debenhams)<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "9618cf6f-386f-468f-928e-4f47dc802da3": {
@@ -149,7 +194,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "Manchester",
-            "store-address": "<p>Intu Trafford Centre, Ground Floor (next to Footlocker)<\/p>"
+            "store-address": "<p>Intu Trafford Centre, Ground Floor (next to Footlocker)<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "34c8d4b8-380c-4d3e-a344-29fcac266dc7": {
@@ -157,7 +211,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "leeds",
-            "store-address": "<p>My Cookie Dough Cafe Flagship Store, 24 Albion Place, LS1 6JS<\/p>"
+            "store-address": "<p>My Cookie Dough Cafe Flagship Store, 24 Albion Place, LS1 6JS<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "de2bbca7-1f11-457c-9dec-d3df286cea44": {
@@ -165,7 +228,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "bluewater",
-            "store-address": "<p>Bluewater Mall, Lower Rose Gallery<\/p>"
+            "store-address": "<p>Bluewater Mall, Lower Rose Gallery<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "d120ec3d-4734-422c-84ab-5b5a4f32a82a": {
@@ -173,7 +245,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "liverpool",
-            "store-address": "<p>My Cookie Dough Cafe, Unit 88c, Liverpool One, 6 Wall Street<\/p>"
+            "store-address": "<p>My Cookie Dough Cafe, Unit 88c, Liverpool One, 6 Wall Street<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         },
         "544a20c9-2f16-4473-9b38-de56a7c4ee2a": {
@@ -181,7 +262,16 @@
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "gateshead",
-            "store-address": "<p>Metro Centre, Lower platinum Mall (next to Game)<\/p>"
+            "store-address": "<p>Metro Centre, Lower platinum Mall (next to Game)<\/p>",
+            "timing-label": "OPENING TIMES",
+            "mon-timing": "",
+            "tue-timing": "",
+            "wed-timing": "",
+            "thu-timing": "",
+            "fri-timing": "",
+            "sat-timing": "",
+            "sun-timing": "",
+            "button-label": "Get Directions"
           }
         }
       },
