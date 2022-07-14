@@ -7,9 +7,15 @@
         "text": "<p>Experience moments of pure joy at<br\/>our My Cookie Dough Stores.<\/p>",
         "button-label": "View all locations"
       }
+    },
+    "image_slider": {
+      "type": "image-slider",
+      "settings": {
+      }
     }
   },
   "order": [
-    "page_head"
+    "page_head",
+    "image_slider"
   ]
 }
