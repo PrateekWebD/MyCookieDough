@@ -2,7 +2,7 @@
       <div id="page-head" class="text-center">
         <div class="container">
           <h1 class="display-1">{{ section.settings.heading }}</h1>
-          <p>Experience moments of pure joy at <br> our My Cookie Dough Stores. </p>
+          <p>{{ section.settings.text }}</p>
           <footer>
             <a href="#" class="btn btn-primary btn-sm">View all locations</a>
           </footer>
@@ -27,6 +27,11 @@
         "id": "heading",
         "type": "html",
         "label": "Heading"
+      },
+      {
+        "id": "text",
+        "type": "richtext",
+        "label": "Text"
       }
     ]
   }
