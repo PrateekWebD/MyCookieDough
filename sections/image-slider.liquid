@@ -2,66 +2,13 @@
         <div class="section pb-0">
           <div class="container">
             <div class="owl-carousel carousel1">
+              
               <div class="item">
                 <figure class="figure1">
                   <img class="w-100" src="images/slide-img1.jpg" alt="img">
                 </figure>
               </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img2.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img3.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img4.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img5.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img6.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img1.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img2.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img3.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img4.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img5.jpg" alt="img">
-                </figure>
-              </div>
-              <div class="item">
-                <figure class="figure1">
-                  <img class="w-100" src="images/slide-img6.jpg" alt="img">
-                </figure>
-              </div>
+         
             </div>
           </div>
         </div>
@@ -80,7 +27,20 @@
 {% schema %}
   {
     "name": "Image Slider",
-    "settings": []
+    "settings": [],
+    "blocks": [
+      {
+        "name": "Image",
+        "type": "image",
+        "settings": [
+          {
+            "id": "slider-image",
+            "type": "image_picker",
+            "label": "Upload Image"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
 
