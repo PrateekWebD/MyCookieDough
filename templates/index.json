@@ -103,6 +103,19 @@
     },
     "our_stores": {
       "type": "our-stores",
+      "blocks": {
+        "9a4df05a-d7da-43f3-9618-3cf880fed796": {
+          "type": "store",
+          "settings": {
+            "store-image": "shopify:\/\/shop_images\/image1.jpg",
+            "store-location": "London",
+            "store-address": "<p>Westfield London White City, First Floor (near Primark)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9a4df05a-d7da-43f3-9618-3cf880fed796"
+      ],
       "settings": {
       }
     }
