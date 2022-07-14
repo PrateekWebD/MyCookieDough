@@ -100,10 +100,16 @@
       ],
       "settings": {
       }
+    },
+    "our_stores": {
+      "type": "our-stores",
+      "settings": {
+      }
     }
   },
   "order": [
     "page_head",
-    "image_slider"
+    "image_slider",
+    "our_stores"
   ]
 }
