@@ -257,20 +257,20 @@
             "button-label": "Get Directions"
           }
         },
-        "544a20c9-2f16-4473-9b38-de56a7c4ee2a": {
+        "58409d90-4bda-44e1-8f33-3c6202980778": {
           "type": "store",
           "settings": {
             "store-image": "shopify:\/\/shop_images\/image1.jpg",
             "store-location": "gateshead",
             "store-address": "<p>Metro Centre, Lower platinum Mall (next to Game)<\/p>",
             "timing-label": "OPENING TIMES",
-            "mon-timing": "",
-            "tue-timing": "",
-            "wed-timing": "",
-            "thu-timing": "",
-            "fri-timing": "",
-            "sat-timing": "",
-            "sun-timing": "",
+            "mon-timing": "9:00 AM - 6:00 PM",
+            "tue-timing": "9:00 AM - 6:00 PM",
+            "wed-timing": "9:00 AM - 6:00 PM",
+            "thu-timing": "9:00 AM - 6:00 PM",
+            "fri-timing": "9:00 AM - 6:00 PM",
+            "sat-timing": "9:00 AM - 6:00 PM",
+            "sun-timing": "11:00 AM - 5:00 PM",
             "button-label": "Get Directions"
           }
         }
@@ -285,7 +285,7 @@
         "34c8d4b8-380c-4d3e-a344-29fcac266dc7",
         "de2bbca7-1f11-457c-9dec-d3df286cea44",
         "d120ec3d-4734-422c-84ab-5b5a4f32a82a",
-        "544a20c9-2f16-4473-9b38-de56a7c4ee2a"
+        "58409d90-4bda-44e1-8f33-3c6202980778"
       ],
       "settings": {
       }
