@@ -99,6 +99,7 @@
         "88685b7a-c65b-4415-9f0d-d8639f643d24"
       ],
       "settings": {
+        "keywords": ""
       }
     },
     "our_stores": {
@@ -293,6 +294,18 @@
     },
     "international_stores": {
       "type": "international-stores",
+      "blocks": {
+        "b94b4c06-2f79-4259-a627-f23b3183e22a": {
+          "type": "store",
+          "settings": {
+            "city": "Kuala Lumpur, Malaysia",
+            "location": ""
+          }
+        }
+      },
+      "block_order": [
+        "b94b4c06-2f79-4259-a627-f23b3183e22a"
+      ],
       "settings": {
       }
     }
