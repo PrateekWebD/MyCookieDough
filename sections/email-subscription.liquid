@@ -7,7 +7,7 @@
                 <div class="form email-form">
                   {% form 'customer' %}
                     <input type="email" name="contact[email]" class="form-control" placeholder="Email">
-                    <input type="submit" class="btn btn-primary" value="Submit">
+                    <input type="submit" class="btn btn-primary" value="{{  }}">
                   {% endform %}
                 </div>
               </div>
@@ -25,6 +25,12 @@
         "type": "textarea",
         "label": "Heading",
         "default": "Sign up below to stay up to date on our latest store openings and promotions"
+      },
+      {
+        "id": "button-label",
+        "type": "text",
+        "label": "Button Label",
+        "default": "Submit"
       }
     ]
   }
