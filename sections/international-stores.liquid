@@ -10,8 +10,7 @@
                       <div class="col-lg-4 col-md-6 column">
                         <h6>{{ block.settings.city }}</h6>
                         <ul class="list1">
-                          {% assign locations =  block.settings.location %}
-                          {{ locations }}
+                          <li>{{ block.settings.location }}</li>
                         </ul>
                       </div>
                   {% endcase %}
