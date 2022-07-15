@@ -4,15 +4,18 @@
             <div class="box1 alt mb-5 mb-lg-5">
               <h2>International stores</h2>
               <div class="row pt-2">
-                
-                <div class="col-lg-4 col-md-6 column">
-                  <h6>Amman, Jordan</h6>
-                  <ul class="list1">
-                    <li>a) Abdoun </li>
-                    <li>b) Khalda </li>
-                  </ul>
-                </div>
-                
+                {% for block in section.blocks %}
+                  {% case block.type %}
+                    {% when 'store' %}
+                      <div class="col-lg-4 col-md-6 column">
+                        <h6>{{ block.settings.city }}</h6>
+                        <ul class="list1">
+                          <li>a) Abdoun </li>
+                          <li>b) Khalda </li>
+                        </ul>
+                      </div>
+                  {% endcase %}
+                {% endfor %}
               </div>
             </div>
             <footer class="text-center pt-4 pt-lg-5">
