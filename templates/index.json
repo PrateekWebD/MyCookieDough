@@ -308,12 +308,18 @@
       ],
       "settings": {
       }
+    },
+    "email_subscription": {
+      "type": "email-subscription",
+      "settings": {
+      }
     }
   },
   "order": [
     "page_head",
     "image_slider",
     "our_stores",
-    "international_stores"
+    "international_stores",
+    "email_subscription"
   ]
 }
