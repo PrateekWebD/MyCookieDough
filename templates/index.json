@@ -1,7 +1,7 @@
 {
   "sections": {
-    "page_head": {
-      "type": "page-head",
+    "banner": {
+      "type": "banner",
       "settings": {
         "heading": "MyCookiedough<sup>r<\/sup><br> Stores",
         "text": "<p>Experience moments of pure joy at<br\/>our My Cookie Dough Stores.<\/p>",
@@ -319,7 +319,7 @@
     }
   },
   "order": [
-    "page_head",
+    "banner",
     "image_slider",
     "our_stores",
     "international_stores",
