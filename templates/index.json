@@ -308,11 +308,35 @@
             "city": "Muscat, Oman",
             "location": "<li> a) Souq Al Madina <\/li> \n<li> b) Mall of Muscat <\/li>"
           }
+        },
+        "23520eb2-34a0-44e4-ae74-baacb87135e9": {
+          "type": "store",
+          "settings": {
+            "city": "Bahrain, Manama",
+            "location": "<li> Oasis Mall <\/li>"
+          }
+        },
+        "6a3accf5-1a02-45d9-bc04-faa15aab8b49": {
+          "type": "store",
+          "settings": {
+            "city": "Amman, Jordan",
+            "location": "<li> a) Abdoun <\/li>       <li> b) Khalda <\/li>"
+          }
+        },
+        "0ec01f92-d5ff-4f99-867b-6fd1d5932c54": {
+          "type": "store",
+          "settings": {
+            "city": "Prague, Czech Republic",
+            "location": "<li> Westfield Chodov, Praha <\/li>"
+          }
         }
       },
       "block_order": [
         "b94b4c06-2f79-4259-a627-f23b3183e22a",
-        "3c55af60-1f78-4c2c-ab35-88d610777a87"
+        "3c55af60-1f78-4c2c-ab35-88d610777a87",
+        "23520eb2-34a0-44e4-ae74-baacb87135e9",
+        "6a3accf5-1a02-45d9-bc04-faa15aab8b49",
+        "0ec01f92-d5ff-4f99-867b-6fd1d5932c54"
       ],
       "settings": {
         "more-stores": "More Stores opening soon including, Cyprus, Qatar, Belgium and more!"
