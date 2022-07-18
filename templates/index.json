@@ -299,7 +299,7 @@
           "type": "store",
           "settings": {
             "city": "Kuala Lumpur, Malaysia",
-            "location": "<li> a) Souq Al Madina <\/li>\n<li> b) Mall of Muscat <\/li>"
+            "location": "a) Souq Al Madina\nb) Mall of Muscat"
           }
         }
       },
@@ -307,11 +307,14 @@
         "b94b4c06-2f79-4259-a627-f23b3183e22a"
       ],
       "settings": {
+        "more-stores": "More Stores opening soon including, Cyprus, Qatar, Belgium and more!"
       }
     },
     "email_subscription": {
       "type": "email-subscription",
       "settings": {
+        "heading": "Sign up below to stay up to date on our latest store openings and promotions",
+        "button-label": "Submit"
       }
     }
   },
